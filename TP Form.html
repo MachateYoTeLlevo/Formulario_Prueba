@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TP Formulario Gerez Josue</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h3>FORMULARIO DE REGISTRO</h3>    
+<form action="" method="GET"></form>
+<label for="nom">Nombre: </label><br>
+<input type="text" name="Nombre" maxlength="50"/><br><br>
+<label for="ap">Apellido: </label><br>
+<input type="text" name="Apellido" maxlength="50"/><br><br>
+<label for="sex">Sexo: </label>
+<input type="radio" name="sexo" value="h"/>
+Hombre
+<input type="radio" name="sexo" value="m"/>
+Mujer<br><br>
+Correo
+<input type="text" name="correo" maxlength="50"/><br><br>
+Población: 
+<select name="select">
+    <option value="value0" selected>Elija un país</option>
+    <option value="value1">Andorra</option>
+    <option value="value2">Argentina</option>
+    <option value="value3">Bélgica</option>
+    <option value="value4">Francia</option>
+    <option value="value5">Qatar</option>
+  </select><br><br>
+
+  <div style="display: flex; flex-flow: row wrap;">Descripción: 
+    <textarea name="patientNotes" 
+    style="width: 250px;
+    height: 100px; 
+    text-align: left;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.1em;
+    padding-right: 0.1em;">
+    </textarea><br/>
+    </div>
+<input type="checkbox" name="info" checked="checked"/>
+Deseo recibir información<br>
+<input type="checkbox" name="info" checked="checked"/>
+Declaro haber leído terminos y condiciones<br><br>
+<input type="submit" name="info" value="Enviar"/>
+
+</body>
+</html>
